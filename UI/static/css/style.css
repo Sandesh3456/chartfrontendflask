@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: hsl(27, 66%, 92%)
+}
+.back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(27, 66%, 92%)
+}
+.container {
+    margin-top: 30px;
+    padding: 10px 30px 10px 30px;
+    border-radius: 15px 15px 15px 15px;
+    /* background-color: orange; */
+}
+.top{
+    font-family:DM sans ;
+    color:white;
+    font-weight:700;
+    display:flex;
+    background-color:hsl(10, 79%, 65%); 
+    border-radius: 15px 15px 15px 15px;
+    margin-top:20px;
+    margin-bottom:20px;
+    height: 70px;
+    width: 500px;
+    padding:30px;
+    align-items: center;
+}
+.side1{
+    width:80%;
+    display:inline-block;
+    float:left;
+}
+#amount{
+    font-size: 35px;
+}
+.side2{
+    width:20%;
+    display:inline-block;
+    float:right;
+}
+.bottom{
+    font-family:DM sans ; 
+    border-radius: 15px 15px 15px 15px;
+    color:black;
+    padding:30px;
+    background-color:white ;
+    display:flex;
+    flex-direction: column;
+}
+#bottom_title{
+    font-size: 30px;
+    font-weight: 700;
+}
+#chart_1{
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-left:0px;
+    background-color: white;
+}
+#canvas {
+    background-color:hsl(27, 66%, 92%) ;
+}
+.bottom_left{
+    width:60%;
+    display:inline-block;
+    background-color:white;
+    float:left;
+    border-radius: 0px 0px 0px 15px;
+    font-family:DM Sans ;
+}
+.bottom_right{
+    width: 40%;
+    display: inline-flex;
+    flex-direction: column;
+    background-color: white;
+    float: right;
+    border-radius: 0px 0px 15px 0px;
+    font-family: DM Sans;
+    padding-top: 15px;
+    text-align: right;
+}
+#month_amount{
+    font-size: 30px;
+    font-weight:700;
+}
+#month_total{
+    font-weight:400;
+}
+#last_months{
+    font-weight:400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
